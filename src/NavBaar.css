@@ -1,0 +1,43 @@
+.top-side{
+    position: absolute;
+    width: 20%;
+    height: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    background-color: #FFFFFF;
+}
+
+.menu-item1{
+    background: #3F0E40;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+.svg-logo1{
+    margin: 1em;
+}
+.item1{
+    padding-left: 1em;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 157%;
+    /* identical to box height, or 22px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.1px;
+
+    color: #FFFFFF;
+
+
+    /* Inside Auto Layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}

@@ -1,0 +1,68 @@
+.term-monitor{
+    position: absolute;
+    width: 218px;
+    height: 52.6px;
+    left: 17px;
+    top: 23px;
+    display: flex;
+}
+.term-monitor-logo-container{
+    display: flex;
+    flex: 1 1 30px;
+    justify-content: center;
+    align-items: center;
+
+}
+.term-monitor-text-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.term-monitor-logo{
+    z-index: 0;
+    background: url(image14.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-background-color{
+    width: 22.77px;
+    height: 22.77px;
+    border-radius: 50%;
+
+    background: #3F0E40;
+
+}
+.term-monitor-center-logo{
+    position: relative;
+    top: 1.5px;
+    left: 1.5px;
+    z-index: 1;
+    background: url(center-logo.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+.term-monitor-text{
+    font-family: 'Poppins',sans-serif;
+    font-style: normal;
+    font-weight: 540;
+    font-size: 29.5321px;
+    letter-spacing: 0.03em;
+    line-height: 0px;
+    /* identical to box height */
+    
+
+    color: #3F0E40;
+}

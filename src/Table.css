@@ -1,0 +1,39 @@
+table{
+    position: absolute;
+    left: 318px;
+    top: 465px;
+    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+
+th,td{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.keyword{
+    width: 330.86px;
+    height: 56px;
+}
+.gaol{
+    width: 171.27px;
+    height: 56px;
+}
+.matches{
+    width: 155.7px;
+    height: 56px;
+}
+.search-status{
+    width: 181.65px;
+    height: 56px;
+}
+
+.delete-keyword{
+    width: 198.52px;
+    height: 56px;
+}
