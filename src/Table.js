@@ -1,4 +1,4 @@
-import Reactxz,{useState, useEffect} from 'react';
+import React,{useState, useEffect} from 'react';
 import './Table.css';
 
 function Table(props){
